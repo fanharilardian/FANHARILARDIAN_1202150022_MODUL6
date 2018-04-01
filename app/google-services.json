@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "514815752339",
+    "firebase_url": "https://fanharilardian1202150022modul6.firebaseio.com",
+    "project_id": "fanharilardian1202150022modul6",
+    "storage_bucket": "fanharilardian1202150022modul6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:514815752339:android:8d6dc1fd84d52741",
+        "android_client_info": {
+          "package_name": "modul6.praktikum.fanharil.fanharilardian_1202150022_modul6"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "514815752339-ieteci454juc7g0nks19qpkaf47bb068.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "modul6.praktikum.fanharil.fanharilardian_1202150022_modul6",
+            "certificate_hash": "e035990f6f0f0761815889b420f3747a52866bef"
+          }
+        },
+        {
+          "client_id": "514815752339-6fbbcilqg3qpj38s1tc147d3c92cjd73.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaUfN7hbnLJyAhsauPLcrrgm9dHowsirg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "514815752339-6fbbcilqg3qpj38s1tc147d3c92cjd73.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
