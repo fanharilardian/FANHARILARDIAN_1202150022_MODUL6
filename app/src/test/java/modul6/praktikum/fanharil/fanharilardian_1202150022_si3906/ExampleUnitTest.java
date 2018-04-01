@@ -1,4 +1,4 @@
-package modul6.praktikum.fanharil.fanharilardian_1202150022_modul6;
+package modul6.praktikum.fanharil.fanharilardian_1202150022_si3906;
 
 import org.junit.Test;
 

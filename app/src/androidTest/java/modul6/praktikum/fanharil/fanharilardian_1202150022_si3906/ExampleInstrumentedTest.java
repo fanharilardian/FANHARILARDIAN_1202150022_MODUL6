@@ -1,4 +1,4 @@
-package modul6.praktikum.fanharil.fanharilardian_1202150022_modul6;
+package modul6.praktikum.fanharil.fanharilardian_1202150022_si3906;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("modul6.praktikum.fanharil.fanharilardian_1202150022_modul6", appContext.getPackageName());
+        assertEquals("modul6.praktikum.fanharil.fanharilardian_1202150022_si3906", appContext.getPackageName());
     }
 }
