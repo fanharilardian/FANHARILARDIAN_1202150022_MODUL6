@@ -1,7 +1,7 @@
 package modul6.praktikum.fanharil.fanharilardian_1202150022_si3906;
 
-import android.app.Fragment;
 import android.os.Bundle;
+import android.support.v4.app.Fragment;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.StaggeredGridLayoutManager;
@@ -134,4 +134,3 @@ public class PhotoFragment extends Fragment {
         }
     }
 }
-

@@ -16,6 +16,9 @@ import com.ogaclejapan.smarttablayout.utils.v4.FragmentStatePagerItemAdapter;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
+import modul6.praktikum.fanharil.fanharilardian_1202150022_si3906.R;
+import modul6.praktikum.fanharil.fanharilardian_1202150022_si3906.Constant;
+import modul6.praktikum.fanharil.fanharilardian_1202150022_si3906.PhotoFragment;
 
 public class MainActivity extends AppCompatActivity {
     // Deklarasi View untuk tombol
@@ -31,10 +34,11 @@ public class MainActivity extends AppCompatActivity {
 
         // membuat tab dan fragment pada tab
         FragmentStatePagerItemAdapter adapter = new FragmentStatePagerItemAdapter(
-                getSupportFragmentManager(), FragmentPagerItems.with(this)
+                getSupportFragmentManager(),FragmentPagerItems.with(this)
                 .add(FragmentPagerItem.of("TERBARU", PhotoFragment.class, PhotoFragment.arguments("terbaru")))
-                .add(FragmentPagerItem.of("POTO SAYA", PhotoFragment.class, PhotoFragment.arguments("fotosaya")))
-                .create());
+                .add(FragmentPagerItem.of("FOTO SAYA", PhotoFragment.class, PhotoFragment.arguments("fotosaya")))
+                .create()
+        );
 
         ViewPager viewPager = (ViewPager) findViewById(R.id.viewpager);
         SmartTabLayout viewPagerTab = (SmartTabLayout) findViewById(R.id.viewpagertab);

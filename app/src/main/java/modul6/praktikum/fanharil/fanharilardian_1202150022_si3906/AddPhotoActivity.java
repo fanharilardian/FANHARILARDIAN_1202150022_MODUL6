@@ -17,6 +17,8 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.Toast;
 
+import com.esafirm.imagepicker.features.ImagePicker;
+import com.esafirm.imagepicker.features.ReturnMode;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.storage.StorageReference;
@@ -27,6 +29,10 @@ import java.io.File;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
+import modul6.praktikum.fanharil.fanharilardian_1202150022_si3906.R;
+import modul6.praktikum.fanharil.fanharilardian_1202150022_si3906.Constant;
+import modul6.praktikum.fanharil.fanharilardian_1202150022_si3906.PhotoModel;
+
 
 public class AddPhotoActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -145,7 +151,7 @@ public class AddPhotoActivity extends AppCompatActivity implements View.OnClickL
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         if (ImagePicker.shouldHandle(requestCode, resultCode, data)) { // jika ada data dipilih
-            Image image = ImagePicker.getFirstImageOrNull(data); //ambil first image
+            com.esafirm.imagepicker.model.Image image = ImagePicker.getFirstImageOrNull(data); //ambil first image
             File imgFile = new File(image.getPath()); // dapatkan lokasi gambar yang dipilih
             if(imgFile.exists()){ //jika ditemukan
                 Bitmap myBitmap = BitmapFactory.decodeFile(imgFile.getAbsolutePath()); //convert file ke bitmap
@@ -156,4 +162,6 @@ public class AddPhotoActivity extends AppCompatActivity implements View.OnClickL
 
         super.onActivityResult(requestCode, resultCode, data);
     }
+
+
 }

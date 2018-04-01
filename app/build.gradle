@@ -38,6 +38,7 @@ dependencies {
     implementation 'com.ogaclejapan.smarttablayout:library:1.6.1@aar'
     implementation 'com.ogaclejapan.smarttablayout:utils-v4:1.6.1@aar'
     implementation 'com.android.support:support-v4:27.1.0'
+    implementation 'com.github.esafirm.android-image-picker:imagepicker:1.12.0'
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
 
 
